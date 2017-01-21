@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c2/Sig07-006.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.quoteBlock {
+  background: rgba(255, 255, 255, 0.2);
+  width: 700px;
+  height: 300px;
+  margin: 20% auto;
+  
+  color: white;
+  text-shadow: 2px 2px 5px #000;
+  padding: 50px;
+}
+
+.quoteBlock > table {
+  width: 100%;
+  padding: 25px;
+}
+
+.quoteTableRow {
+  padding: 10px;
+}
+
+.quoteDisplayItem > h3, h2 {
+  margin: 10px 0px;
+}
+
+.postQuoteDisplayItem {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  
+  padding: 0px;
+}
+
+.navbar {
+  margin: 0px;
+  border: 0px;
+}
+
+.navbar > .btn .btn-default {
+  height: 100%;
+}
+
+
