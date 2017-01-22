@@ -6,7 +6,7 @@ body {
 }
 
 .quoteBlock {
-  background: rgba(0, 0, 0, 0.40);
+  background: rgba(0, 0, 0, 0.45);
   width: 700px;
   margin: 20% auto;
   border-radius: 4px;
@@ -31,6 +31,14 @@ body {
   margin: 10px 0px;
 }
 
+.quoteDisplayItem > h3, h2 > a {
+  color: white;
+}
+
+.quoteDisplayItem > h3, h2 > a:hover {
+  color: white;
+}
+
 .postQuoteDisplayItem {
   margin-top: 10px;
   margin-left: 0px;
@@ -50,12 +58,16 @@ body {
 .navbar-btn {
   height: 100%;
   margin: 0px;
-  background: rgba(0, 0, 0, 0.5);
-  font-size: 30px;
+  background: rgba(0, 0, 0, 0.55);
+/*  font-size: 20px;*/
 }
 
 .navbar-btn:hover {
   color: #DDD;
+}
+
+.navbar-btn:focus {
+  color: #FFF;
 }
 
 
