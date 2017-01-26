@@ -39,6 +39,10 @@ body {
   color: white;
 }
 
+.quoteDisplayItem > h3, h2 > a:focus {
+  color: white;
+}
+
 .postQuoteDisplayItem {
   margin-top: 10px;
   margin-left: 0px;
@@ -60,6 +64,7 @@ body {
   margin: 0px;
   background: rgba(0, 0, 0, 0.55);
 /*  font-size: 20px;*/
+  color: white;
 }
 
 .navbar-btn:hover {
@@ -67,6 +72,14 @@ body {
 }
 
 .navbar-btn:focus {
+  color: #FFF;
+}
+
+a > .navbar-btn:hover {
+  color: #DDD;
+}
+
+a > .navbar-btn:focus {
   color: #FFF;
 }
 
